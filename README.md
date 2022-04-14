@@ -21,4 +21,4 @@ Here I will be uploading code from my Java Udemy Course
 - Section 6: Bonus: Concurrency  and Multithreading
 
 I will be trying to do as many lessons as possible per day. I have to balance my Python, JavaScript and School Work. 
-My goal is to finish this by the end of the summer. Thank You!!
+My goal is to finish this by the end of the summer, and start to use it for Machine Learning!!! Thank You!!
