@@ -1,6 +1,6 @@
 package SectionTwo;
 
-public class WorkBook_02 {
+public class WorkBook_02_1 {
     public static void main(String[] args) {
         
         int points = 0;
