@@ -11,18 +11,20 @@ public class MathOperations {
         double testScore = 6.7;
         double bonusMarks = 2.5;
 
-        System.out.println("Fred and George collected " + (bagOfSweets1 + bagOfSweets2) + " sweets");
+        System.out.println("Fred and George collected " + (bagOfSweets1 + bagOfSweets2) + " sweets"); // You can also do the same thing with the - sign
         System.out.println("There are " + (starsInAnromeda + starsInMilyWay) + " stars in the Milky Way and Andromeda galaxies.");
         System.out.println("With bonus marks, Ron scored " + (testScore + bonusMarks) + " /10  on his potions test. Snape wasn't too thrilled");
+
+        System.out.println("Fred has  "+ (bagOfSweets1 - bagOfSweets2)+ " more sweets than George" );
+        System.out.println("The Andromeda Galaxy has " + (starsInAnromeda - starsInMilyWay)+ " more stars than the Milky Way");
+        System.out.println("Snape ended up removing marks. Ron actually scored " +  (testScore - bonusMarks) + " on his potions test");
+
     }
     
     
 }
 
 
-// Fred and George collected <result> sweets
-// There are <result> stars in the Milky Way and Andromeda galaxies.
-// With bonus marks, Ron scored <result>/10 on his potions test. Snape wasn't too thrilled
 // Fred has  <result>  more sweets than George
 // The Andromeda Galaxy has <result> more stars than the Milky Way
 // Snape ended up removing marks. Ron actually scored <result> on his potions test
