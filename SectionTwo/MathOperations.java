@@ -11,9 +11,9 @@ public class MathOperations {
         double testScore = 6.7;
         double bonusMarks = 2.5;
 
-        System.out.println(bagOfSweets1 + bagOfSweets2);
-        System.out.println(starsInAnromeda + starsInMilyWay);
-        System.out.println(testScore + bonusMarks);
+        System.out.println("Fred and George collected " + (bagOfSweets1 + bagOfSweets2) + " sweets");
+        System.out.println("There are " + (starsInAnromeda + starsInMilyWay) + " stars in the Milky Way and Andromeda galaxies.");
+        System.out.println("With bonus marks, Ron scored " + (testScore + bonusMarks) + " /10  on his potions test. Snape wasn't too thrilled");
     }
     
     
