@@ -18,18 +18,17 @@ public class MathOperations {
         System.out.println("Fred has  "+ (bagOfSweets1 - bagOfSweets2)+ " more sweets than George" );
         System.out.println("The Andromeda Galaxy has " + (starsInAnromeda - starsInMilyWay)+ " more stars than the Milky Way");
         System.out.println("Snape ended up removing marks. Ron actually scored " +  (testScore - bonusMarks) + " on his potions test");
+        
+        System.out.println("Fred and George used a special spell to multiply their sweets to: " + (bagOfSweets1 * bagOfSweets2) + " ");
+        System.out.println("Snape made an error on his excel, accidentally multiplying Ron's score to: " +  (testScore * bonusMarks) + "/ 10");
 
+        
     }
     
     
 }
 
 
-// Fred has  <result>  more sweets than George
-// The Andromeda Galaxy has <result> more stars than the Milky Way
-// Snape ended up removing marks. Ron actually scored <result> on his potions test
-// Fred and George used a special spell to multiply their sweets to: <result>
-// Snape made an error on his excel, accidentally multiplying Ron's score to: <result>/10
 // Originally, Fred had  <result> times more sweets than George
 // Andromeda has <result> times more stars
 // Snape caught the error. Furious, he divided Ron's score to: <result>
