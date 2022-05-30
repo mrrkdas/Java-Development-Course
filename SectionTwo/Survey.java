@@ -13,24 +13,25 @@ public class Survey {
         String name = scan.nextLine();
         counter ++;
 
-        System.out.println("How much money do you spend on coffee");
+        System.out.println("\nHow much money do you spend on coffee");
         double coffeePrice = scan.nextDouble();
         counter ++;
 
-        System.out.println("How much do you spend on fast food?");
+        System.out.println("\nHow much do you spend on fast food?");
         double foodPrice = scan.nextDouble();
         counter ++;
 
-        System.out.println("How many times a week to you buy coffee");
+        System.out.println("\nHow many times a week to you buy coffee");
         int coffeeAmount = scan.nextInt();
         counter ++;
 
-        System.out.println("How many times a week do you buy fast food");
+        System.out.println("\nHow many times a week do you buy fast food");
         int foodAmount = scan.nextInt();
         counter ++;
         
         System.out.println("\nThank You" + name + "for answering" + counter + "questions");
-
+        System.out.println("Your fast food expenses are" + (foodAmount * foodPrice) + ".");
+        Sys.println("Your fast food expenses are" + (foodPrice/coffeePrice) + "more than your coffee expenses");
         // We always have to do this because scan is like a connection, we have to close it.
         scan.close();
 
