@@ -31,7 +31,7 @@ public class Survey {
         
         System.out.println("\nThank You" + name + "for answering" + counter + "questions");
         System.out.println("Your fast food expenses are" + (foodAmount * foodPrice) + ".");
-        Sys.println("Your fast food expenses are" + (foodPrice/coffeePrice) + "more than your coffee expenses");
+        System.out.println("Your fast food expenses are" + (foodPrice/coffeePrice) + "more than your coffee expenses");
         // We always have to do this because scan is like a connection, we have to close it.
         scan.close();
 
