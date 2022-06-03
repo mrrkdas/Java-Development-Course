@@ -1,4 +1,4 @@
-package SectionTwo;
+package Section2;
 
 public class WorkBook_02_3 {
     public static void main(String[] args) {

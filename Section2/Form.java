@@ -1,4 +1,4 @@
-package SectionTwo;
+package Section2;
 
 public class Form {
     public static void main(String[] args) {

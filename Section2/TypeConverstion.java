@@ -1,4 +1,4 @@
-package SectionTwo;
+package Section2;
 public class TypeConverstion {
     public static void main(String[] args) {
         double salary = 5833.3333;
