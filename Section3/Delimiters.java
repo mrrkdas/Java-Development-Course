@@ -9,6 +9,8 @@ public class Delimiters {
         System.out.println("Enter a number");
         int number = scan.nextInt();
 
+        scan.nextLine();
+        
         System.out.println("Please write a sentence");
         String text = scan.nextLine();
 
