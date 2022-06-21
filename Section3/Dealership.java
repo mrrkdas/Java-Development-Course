@@ -13,7 +13,17 @@ public class Dealership {
         String option = scan.nextLine();
 
         switch (option) {
-            case "a": System.out.println("you chose option " + option); break;
+            case "a":
+                System.out.println("What is your budget?");
+                int budget = scan.nextInt()
+
+                if (budget >= 10000) {
+                    System.out.println("Great a nissan Altima is available");
+
+                } else {
+                    System.out.println("We don't sell cars under $10000 sorry!!");
+                }
+                break;
             case "b": System.out.println("you chose option " + option); break;
             default: System.out.println("invalid option"); 
         }
