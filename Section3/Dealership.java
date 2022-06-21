@@ -26,7 +26,7 @@ public class Dealership {
                     String insurance = scan.nextLine();
 
                     System.out.println("/n Do you have a drivers license?");
-                    String license = scan.nextLine()
+                    String license = scan.nextLine();
                 } else {
                     System.out.println("We don't sell cars under $10000 sorry!!");
                 }
