@@ -27,6 +27,16 @@ public class Dealership {
 
                     System.out.println("/n Do you have a drivers license?");
                     String license = scan.nextLine();
+
+                    System.out.println("\n What is your credit score?");
+                    int creditScore = scan.nextInt();
+
+                    if (insurance.equals("yes") && license.equals("yes") && creditScore > 660) {
+                        System.out.println("Sold pleasure doing buisness with you");
+                    } else {
+                        System.out.println("Sorry you are not eligible");
+                    }
+
                 } else {
                     System.out.println("We don't sell cars under $10000 sorry!!");
                 }
