@@ -2,6 +2,8 @@ package Section3;
 
 import java.util.Scanner;
 
+import javax.swing.plaf.synth.SynthSpinnerUI;
+
 public class Dealership {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -19,7 +21,12 @@ public class Dealership {
 
                 if (budget >= 10000) {
                     System.out.println("Great a nissan Altima is available");
+                    System.out.println("/n Do you have insurance?");
+                    scan.nextLine();
+                    String insurance = scan.nextLine();
 
+                    System.out.println("/n Do you have a drivers license?");
+                    String license = scan.nextLine()
                 } else {
                     System.out.println("We don't sell cars under $10000 sorry!!");
                 }
