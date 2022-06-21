@@ -15,7 +15,7 @@ public class Dealership {
         switch (option) {
             case "a":
                 System.out.println("What is your budget?");
-                int budget = scan.nextInt()
+                int budget = scan.nextInt();
 
                 if (budget >= 10000) {
                     System.out.println("Great a nissan Altima is available");
