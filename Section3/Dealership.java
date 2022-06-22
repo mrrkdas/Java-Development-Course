@@ -41,7 +41,28 @@ public class Dealership {
                     System.out.println("We don't sell cars under $10000 sorry!!");
                 }
                 break;
-            case "b": System.out.println("you chose option " + option); break;
+            case "b": 
+            System.out.println("You are here to sell a car");
+            System.out.println("What price did you purchase your car at?");
+            int purchasePrice = scan.nextInt();
+
+            System.out.println("\n What are you planning to sell your car at?");
+            int sellingPrice = scan.nextInt();
+
+            if (sellingPrice > purchasePrice) {
+                System.out.println("We only accept selling prices below you purchase price");
+                System.out.println("Pleasure working with you though");
+            } else{
+                if (sellingPrice > 30000) {
+                    System.out.println("Your selling price is to high for our buisness");
+                    System.out.println("Pleasure working with you though");
+                } else {
+                    System.out.println("Pleasure working with you we will buy your car!!");
+
+                }
+            }
+
+            break;
             default: System.out.println("invalid option"); 
         }
     }
