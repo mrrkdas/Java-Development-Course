@@ -1,6 +1,6 @@
 package Section3;
 
-import javax.print.event.PrintEvent;
+import java.util.Scanner;
 
 public class challenge_03 {
     public static void main(String[] args) {
@@ -57,7 +57,7 @@ public class challenge_03 {
         }
         
         System.out.println("Your final score is: " + score + "/20");
-        
+
         if (score >= 15) {
             System.out.println("Wow, you know your stuff!");
         } else if (score > 5 && score < 15) {
