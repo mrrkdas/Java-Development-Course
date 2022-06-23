@@ -1,5 +1,7 @@
 package Section3;
 
+import javax.print.event.PrintEvent;
+
 public class challenge_03 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -55,12 +57,14 @@ public class challenge_03 {
         }
         
         System.out.println("Your final score is: " + score + "/20");
-
-        //Task 3: print a message depending on the score
-
-        // if the score is 15 or higher, print: "Wow, you know your stuff!";
-        // if the score is between 5 and 15, print "Not bad!";
-        // else, better luck next time. 
+        
+        if (score >= 15) {
+            System.out.println("Wow, you know your stuff!");
+        } else if (score > 5 && score < 15) {
+            System.out.println("Not Bad");
+        } else {
+            System.out.println("Better luck next time");
+        }
 
 
         scan.close();
