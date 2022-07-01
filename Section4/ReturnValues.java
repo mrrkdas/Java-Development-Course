@@ -10,6 +10,10 @@ public class ReturnValues {
         
     }
 
+    System.out.println("The area of a rectangle with the length" + 
+    4.3 + " and length of" + 2.2 + "has an area of " + measure1);
+
+    
     public static double measureRectangle(double length, double width) {
         double area = length * width;
 
