@@ -7,7 +7,9 @@ public class WorkBook_04_3 {
         double midnight = 55;      //temperature at midnight in fahrenheit
 
         //Task 3 - Call the printTemperatures function. 
-        
+        printTemperatures(noon);
+        printTemperatures(evening);
+        printTemperatures(midnight);
         
     }
 
@@ -23,6 +25,12 @@ public class WorkBook_04_3 {
      * 1. returns the temperature in celcius. C = (F - 32) * 5/9. 
      */
 
+     public static double fahrenheitToCelsius(double fahrenheit) {
+        
+        double C = (fahrenheit - 32) * 5/9;
+        return C;
+     }
+
      
     //Task 2: Make a function here. See the doc comments below. 
 
@@ -34,4 +42,12 @@ public class WorkBook_04_3 {
      *  1. prints: F: <temperature in fahrenheit>.
      *  2. prints: C: <temperature in celsius> . 
      */
+
+     public static void printTemperatures(double fahrenheit) {
+        System.out.println("F: " + fahrenheit);
+
+        double celsius = fahrenheitToCelsius(fahrenheit);
+
+        System.out.println("C: " + celsius);
+     }
 }
