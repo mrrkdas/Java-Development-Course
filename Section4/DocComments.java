@@ -31,4 +31,21 @@ public class DocComments {
     public static void printText(String name, String age) {
         System.out.println("Hi I'm " + name + "and I'm " + age + "year old");
     }
+
+    /**
+     * Function name: calculateArea
+     * @param length (double)
+     * @param width (double)
+     * @return (double)
+     * 
+     * Inside the function:
+     *  1. this function calculates the area through two params
+     * 
+     */
+
+    public static double calculateArea(double length, double width) {
+        double area = length * width;
+
+        return area;
+    }
 }
