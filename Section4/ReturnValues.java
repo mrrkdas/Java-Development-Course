@@ -22,6 +22,12 @@ public class ReturnValues {
 
     
     public static double measureRectangle(double length, double width) {
+        switch (option) {
+            case "area": return length * width;
+            case "perimeter" : return  2 * (length + width);
+            dufault: return 404;
+        }
+        
         double area = length * width;
 
         return area;
