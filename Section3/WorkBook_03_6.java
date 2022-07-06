@@ -1,6 +1,5 @@
 package Section3;
 
-import javax.print.attribute.SupportedValuesAttribute;
 
 public class WorkBook_03_6 {
     public static void main(String[] args) {

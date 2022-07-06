@@ -2,7 +2,6 @@ package Section3;
 
 import java.util.Scanner;
 
-import javax.swing.plaf.synth.SynthSpinnerUI;
 
 public class Dealership {
     public static void main(String[] args) {
