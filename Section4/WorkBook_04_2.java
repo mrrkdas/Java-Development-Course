@@ -1,6 +1,5 @@
 package Section4;
 
-import javax.swing.event.SwingPropertyChangeSupport;
 
 public class WorkBook_04_2 {
     public static void main(String[] args) {
