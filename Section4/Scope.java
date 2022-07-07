@@ -1,11 +1,12 @@
 package Section4;
 public class Scope {
+    static int dog = 5;
     public static void main(String[] args) {
-        int apples = 5;
+        System.out.println(dog);
         someFunction();
     }
-    public static void someFunction(){
-        System.out.println(apples);
+    public static void someFunction() {
+        System.out.println(dog);
     }
     
     
