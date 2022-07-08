@@ -10,6 +10,10 @@ public class BuiltInFunctions {
         double power = Math.pow(2,4);
 
         System.out.println("2^4 = " + power);
+
+        double random = Math.random();
+
+        System.out.println("The random values is + " + random);
     }
     
 }
