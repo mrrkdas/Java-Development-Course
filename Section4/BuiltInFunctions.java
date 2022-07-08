@@ -11,7 +11,7 @@ public class BuiltInFunctions {
 
         System.out.println("2^4 = " + power);
 
-        double random = Math.random();
+        double random = Math.random() * 100;
 
         System.out.println("The random values is + " + random);
     }
