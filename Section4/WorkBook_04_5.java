@@ -1,6 +1,6 @@
 package Section4;
 
-public class WokrBook_04_5 {
+public class WorkBook_04_5 {
 
     public static void main(String[] args) {
         System.out.println("Thank you for using the area calculator");
@@ -56,8 +56,8 @@ public class WokrBook_04_5 {
         double area = Math.PI * radius * 2;
         return area;
     } else {
-        return 0;
-    }
+    } return 0; }
+
 
 
 
@@ -66,7 +66,7 @@ public class WokrBook_04_5 {
         System.out.println("Square area: " + square);
         System.out.println("Rectangle area: " + rectangle);
         System.out.println("Traingle area: " + triangle);
-        System.out.println("Circle area: " circle);
+        System.out.println("Circle area: " + circle);
 
     }
 
@@ -77,4 +77,3 @@ public class WokrBook_04_5 {
 
     }
 
-}
