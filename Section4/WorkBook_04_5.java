@@ -10,13 +10,14 @@ public class WokrBook_04_5 {
         
         //Task 5 – Call area functions.
 
-        // double square = area of square with a side of 2.
-        // double rectangle = area of rectangle with a length of 1, and a width of 2. 
-        // double triangle = area of triangle with a base of 1, and a width of 2. 
-        // double circle = area of circle with a radius of 2. 
+        double square = areaSquare(2);
+        double rectangle = areaRectangle(2, 1);
+        double triangle = areaTriangle(2, 1);
+        double circle = areaCircle(2);
 
 
         //Task 7 – Call a function that prints all the areas. 
+        printAreas(square, rectangle, circle, triangle);
 
     }
 
@@ -60,28 +61,14 @@ public class WokrBook_04_5 {
 
 
 
-    //Task 6: Write a function that prints every area.
+    
+    public static void printAreas(double square, double rectangle, double circle, double triangle) {
+        System.out.println("Square area: " + square);
+        System.out.println("Rectangle area: " + rectangle);
+        System.out.println("Traingle area: " + triangle);
+        System.out.println("Circle area: " circle);
 
-
-    /**
-     * Function name: printAreas – it prints four areas
-     * @param square – square area (double)
-     * @param rectangle – rectangle area (double)
-     * @param triangle – triangle area (double)
-     * @param circle – circle area (double)
-     * 
-     * Inside the function:
-     *  1. print: ("Square area: <square area>")
-     *  2. print: ("Rectangle area: <rectangle area>")
-     *  3. print: ("Triangle area: <triangle area>")
-     *  4. print: ("Circle area: <circle area>")
-     * 
-     */
-
-
-
-
-
+    }
 
 
 
