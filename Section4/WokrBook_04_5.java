@@ -1,6 +1,7 @@
 package Section4;
 
 public class WokrBook_04_5 {
+
     public static void main(String[] args) {
         System.out.println("Thank you for using the area calculator");
         System.out.println("This calculator lets you get the area of: ");
@@ -34,10 +35,11 @@ public class WokrBook_04_5 {
     public static double areaSquare(double side) {
         if (side > 0) {
             double area = Math.pow(side, 2);
+            return area;
         } else {
-            System.out.println("That is not a valid number");
-        }
-        return area;
+            System.out.println("That is not a valid number"); 
+        }        
+        return 0;
     }
 
 
