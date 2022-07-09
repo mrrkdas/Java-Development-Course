@@ -20,18 +20,6 @@ public class WokrBook_04_5 {
 
     }
 
-    //Task 1 - Write a function that calculates the area of a square. 
-
-
-    /**
-     * Function name: areaSquare - returns the area of a square.
-     * @param side (double)
-     * @return the area (double)
-     * 
-     * Inside the function: 
-     *  1. If the side is negative, prints "Error: impossible" and terminates the java program.
-     *  2. Calculates the area of the square. A = side²
-     */
     public static double areaSquare(double side) {
         if (side > 0) {
             double area = Math.pow(side, 2);
@@ -43,55 +31,30 @@ public class WokrBook_04_5 {
     }
 
 
-    //Task 2 - Write a function that calculates the area of a rectangle. 
-
-
-    /**
-     * Function name: areaRectangle – returns the area of a rectangle.
-     * @param length (double).
-     * @param width  (double).
-     * @return the area (double)
-     * 
-     * Inside the function: 
-     *  1. If the length OR width is negative, prints "Error: impossible" and terminates the program.
-     *  2. Calculates the area of the rectangle. A = length * width
-     */
     public static double areaRectangle(double length, double width) {
-
-        return 0;  
+        if (length > 0 && width > 0) {
+            double area = length * width;
+            return area;
+        } else {
+            return 0;  
+        } 
     } 
 
-    //Task 3 - Write a function that calculates the area of a triangle. 
-
-    /**
-     * Function name: areaTriangle – it returns the area of a triangle.
-     * @param base: (double).
-     * @param height: (double).
-     * @return the area (double)
-     * 
-     * Inside the function: 
-     *  1. If the base OR height is negative, prints "Error: impossible" and terminates the program.
-     *  2. Calculates the area of the triangle. A = (base * height)/2
-     */ 
     public static double areaTriangle(double base, double height) {
-
-        return 0; 
+        if (base > 0 && height > 0) {
+            double area = 0.5 * base * height;
+            return area;
+        } else {
+            return 0;
+        }
     }
 
-    //Task 4 - Write a function that calculates the area of circle. 
 
-
-    /**
-     * Function name: areaCircle – it returns the area of a circle.
-     * @param radius (double).
-     * @return area (double)
-     * 
-     * Inside the function: 
-     *  1. If the radius is negative, prints "Error: impossible" and terminates the program.
-     *  2. Calculates the area of the circle. 
-     */ 
     public static double areaCircle(double radius) {
-
+        if (radius > 0) {
+        double area = Math.PI * radius * 2;
+        return area;
+    } else {
         return 0;
     }
 
