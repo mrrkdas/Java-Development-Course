@@ -16,6 +16,16 @@ public class DiceJack {
         int num2 = scan.nextInt();
         int num3 = scan.nextInt();
 
+        if (num1 < 1 || num2 < 1 || num3 < 1) {
+            System.out.println("No input can be less than 1");
+            System.exit(0);
+        }
+
+        if (num1 > 6 || num2 > 6 || num3 > 6) {
+            System.out.println("Numbers can't be greater than 6");
+            System.exit(0);
+        }
+
         scan.close();
     }
 
