@@ -7,28 +7,26 @@ public class challenge_04 {
         
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Let's play Rock Paper Scissors.");
-        System.out.println("When I say 'shoot', Choose: rock, paper, or scissors.\n");
-        System.out.println("Are you ready? Write 'yes' if you are.");
+        System.out.println("Do you want to play rock paper scissors?");
 
-    //Task 1: See if the user wants to play. 
+        String decision = scan.nextLine();
 
-    /*Task 2: Set up the game
-    
+        if (decision.equals("yes")) {
+            System.out.println("Let's play Rock Paper Scissors.");
+            System.out.println("When I say 'shoot', Choose: rock, paper, or scissors.\n");
+            System.out.println("Are you ready?");
+            System.out.println("Rock");
+            System.out.println("Paper");
+            System.out.println("Scissor");
+            System.out.println("Shoot!!")
 
-       • if the answer is yes: 
-             – print: Great!
-             – print: rock – paper – scissors, shoot!
-             – pick up user's choice.
-             – get the computer choice (can only be done after task 3).
-             – get the result (can only be done after task 4)
-             – print everything (can only be done after task 5).
+            String decision_ = scan.nextLine();
 
-       • else:
-             – print: Darn, some other time...!        
-    */
+
+        } else {
+            System.out.println("Bye!! ");
+        }
               
-
         scan.close();
     }
 
