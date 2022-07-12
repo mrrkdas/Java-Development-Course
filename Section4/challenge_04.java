@@ -91,8 +91,26 @@ public class challenge_04 {
 
     public static String result(String yourChoice, String computerChoice) {
         String result = "";
-
+        
+        if (yourChoice.equals("rock") && computerChoice.equals("scissors")) {
+            result = "You win!";
+        } else if (yourChoice.equals("rock") && computerChoice.equals("paper")) {
+            result = "You lose!";
+        } else if (yourChoice.equals("paper") && computerChoice.equals("rock")) {
+            result = "You win!";
+        } else if (yourChoice.equals("paper") && computerChoice.equals("scissors")) {
+            result = "You lose!";
+        } else if (yourChoice.equals("scissors") && computerChoice.equals("paper")) {
+            result = "You win!";
+        }   else if (yourChoice.equals("scissors") && computerChoice.equals("rock")) {
+            result = "You lose!";
+        }  else if (yourChoice.equals(computerChoice)) {
+            result = "It's a tie!";
+        }  
         return result;
+      }
+
+        
       }
  
      //Task 5  – Write a function that prints your choice, the computer's, and the result.
