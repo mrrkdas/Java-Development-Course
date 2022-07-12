@@ -44,6 +44,21 @@ public class challenge_04 {
      *      if 2: returns the choice 'scissors'
      */
 
+    public static String computerChoice() {
+        int number = (int) Math.random() * 2;
+
+        if (number == 1) {
+            String rock = "rock";
+            return rock;
+        } else if (number == 2) {
+            String paper = "paper";
+            return paper;
+        } else {
+            String scissors = "scissors";
+            return scissors;
+        }
+    }
+
 
 
 
