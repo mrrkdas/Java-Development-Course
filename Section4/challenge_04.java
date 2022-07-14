@@ -13,7 +13,7 @@ public class challenge_04 {
 
         if (decision.equals("yes")) {
             System.out.println("Let's play Rock Paper Scissors.");
-            System.out.println("When I say 'shoot', Choose: rock, paper, or scissors.\n");
+            System.out.println("When I say 'shoot', Choose: rock, paper, or scissors.);
             System.out.println("Are you ready?");
             System.out.println("Rock");
             System.out.println("Paper");
