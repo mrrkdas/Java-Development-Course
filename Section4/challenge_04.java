@@ -13,12 +13,12 @@ public class challenge_04 {
 
         if (decision.equals("yes")) {
             System.out.println("Let's play Rock Paper Scissors.");
-            System.out.println("When I say 'shoot', Choose: rock, paper, or scissors.);
+            System.out.println("When I say 'shoot', Choose: rock, paper, or scissors.");
             System.out.println("Are you ready?");
             System.out.println("Rock");
             System.out.println("Paper");
             System.out.println("Scissor");
-            System.out.println("Shoot!!")
+            System.out.println("Shoot!!");
 
             String decision_ = scan.nextLine();
 
@@ -72,8 +72,6 @@ public class challenge_04 {
         return result;
       }
 
-        
-    }
  
      //Task 5  – Write a function that prints your choice, the computer's, and the result.
 
@@ -95,7 +93,9 @@ public class challenge_04 {
         System.out.println("Computer choice" + computerChoice);
         System.out.println(result);
     }
-    
+
 }
+    
+
 
 
