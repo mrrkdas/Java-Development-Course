@@ -14,11 +14,21 @@ public class WorkBook_05_3 {
             Make sure Timmy can enter the value BESIDE the question. 
         */
 
+        System.out.println("Choose a number ");
+
+        int number = scan.nextInt();
+
+        
+
         /* Task 2 – Count from 0 to that number
 
              Let's say Timmy entered 5, you would display: 0 1 2 3 4 5 
 
         */
+
+        for (int i = 0; i <= number; i++){
+            System.out.println(i);
+        }
 
         scan.close();
     }
