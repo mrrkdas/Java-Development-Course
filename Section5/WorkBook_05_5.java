@@ -41,6 +41,10 @@ public class WorkBook_05_5 {
             3. counts in steps of the first.
       */
 
+      for (int i = startFrom; i <= countToo; i+= countBy) {
+        System.out.println(i);
+      }
+
         scan.close();
     }
 }
