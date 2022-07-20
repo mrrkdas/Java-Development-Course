@@ -20,5 +20,5 @@ Here I will be uploading code from my Java Udemy Course
 - Section 5: Capstone Project
 - Section 6: Bonus: Concurrency  and Multithreading
 
-I will be trying to do as many lessons as possible per day. I have to balance my Python, JavaScript and School Work. 
+I will be trying to do as many lessons as possible per day. I have to balance my Python and School Work. 
 My goal is to finish this by the end of the summer, and start to use it for Machine Learning!!! Thank You!!
