@@ -1,5 +1,7 @@
 package Section5;
 
+import java.util.Scanner;
+
 public class WorkBook_05_5 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -20,6 +22,17 @@ public class WorkBook_05_5 {
                 pick up the user's answer 
                 
         */
+        
+        System.out.println("Enter a number to count by");
+        int countBy = scan.nextInt();
+
+        System.out.println("Pick a number to start counting from");
+        int startFrom = scan.nextInt();
+
+        System.out.println("Enter the number to count to");
+        int countToo = scan.nextInt();
+
+        
         
 
       /* Task 2 – Create a for loop that:
