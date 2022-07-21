@@ -2,7 +2,10 @@ package Section5;
 
 public class WorkBook_05_7 {
     public static void main(String[] args) {
-        // Task 1 – Make a for loop that counts from 0 to 18. 
+        // Task 1 – Make a for loop that counts from 0 to 18.
+        for (int i = 0; i <= 18; i++) {
+            
+        }
        
        /* Task 2
              
