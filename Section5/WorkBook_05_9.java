@@ -13,9 +13,9 @@ public class WorkBook_05_9 {
         Scanner scan = new Scanner(System.in);
         System.out.println("\nWelcome to Javagram! Sign in below\n");
         System.out.print("• Username: ");
-        //pick up username
+        String username_ = scan.nextLine();
         System.out.print("• Password: ");
-        //pick up password
+        String password_ = scan.nextLine();
 
         /* Task 2 
             1. Set up a loop that keeps running while the username OR password is incorrect. 
@@ -25,6 +25,16 @@ public class WorkBook_05_9 {
             2. After they enter the correct information, print: 
                    \nSign in successful. Welcome!
        */
+      while (!username_ .equals(username) || !password_.equals(password)) {
+        System.out.println("Try again");
+        System.out.print("Username: ");
+        username_ = scan.nextLine();
+        System.out.print("Password: ");
+        password_= scan.nextLine();
+
+        
+      }
+      System.out.println("System granted access");
 
     }
 }
