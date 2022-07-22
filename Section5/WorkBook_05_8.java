@@ -8,6 +8,8 @@ public class WorkBook_05_8 {
             1. Store a "secret" number between 1 and 5. 
             2. Then, prompt the user to enter a guess.
        */
+      double random = (Math.random() * 5) + 1;
+    
        System.out.print("I chose a number between 1 and 5. Try to guess it: ");
         
        Scanner scan = new Scanner(System.in);
