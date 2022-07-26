@@ -22,6 +22,16 @@ public class Pokerito {
         |
         */
         
+        System.out.println("Let's play Pokerito. Type anything when you're ready.");
+        scan.nextLine();
+        System.out.println("It's like Poker, but a lot simpler\n");
+        System.out.println("- There are two players, you and the computer.");
+        System.out.println("- The dealer will give each player one card.");
+        System.out.println("- Then, the dealer will draw five cards (the river)");
+        System.out.println("- The player with the most river matches wins! ");
+        System.out.println("- If the matches are equal, everyone's a winner!\n");
+        System.out.println("- Ready? Type anything if you are.");
+        
 
         /*Task 3: Present the user with a card
          println 'Here's your card:'
