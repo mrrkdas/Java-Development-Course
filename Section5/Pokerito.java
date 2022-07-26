@@ -68,6 +68,29 @@ public class Pokerito {
          *      ...
          */
 
+        System.out.println("Now, the dealer will draw five cards. Press enter to continue.");
+        scan.nextLine();
+        String card1 = randomCard();
+        System.out.println(card1);
+
+        scan.nextLine();
+        String card2 = randomCard();
+        System.out.println(card2);
+
+        scan.nextLine();
+        String card3 = randomCard();
+        System.out.println(card3);
+
+        scan.nextLine();
+        String card4 = randomCard();
+        System.out.println(card4);
+
+        scan.nextLine();
+        String card5 = randomCard();
+        System.out.println(card5);
+
+
+
         /** Task 5 - Get the winner
          * 
          * • Count your number of matches.
