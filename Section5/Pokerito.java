@@ -51,7 +51,7 @@ public class Pokerito {
         System.out.println(computerCard);
 
 
-        int yourMatches = 0;
+        int userMatches = 0;
         int computerMatches =0;
 
         /** Task 4 - Draw five cards
@@ -102,6 +102,44 @@ public class Pokerito {
          * • If the computer has more matches, print: The computer wins! 
          * • If the matches are equal, print: everyone wins!.
          */
+
+        if (card1 == computerCard) {
+            computerMatches++;
+        } else if (card2 == computerCard) {
+            computerMatches++;
+        } else if (card3 == computerCard) {
+            computerMatches++;
+        } else if (card4 == computerCard) {
+            computerMatches++;
+        } else if (card5 == computerCard) {
+            computerMatches++;
+        } else {
+            computerMatches = 0;
+        }
+
+        if (card1 == userCard) {
+            userMatches++;
+        } else if (card2 == userCard) {
+            userMatches++;
+        } else if (card3 == userCard) {
+            userMatches++;
+        } else if (card4 == userCard) {
+            userMatches++;
+        } else if (card5 == userCard) {
+            userMatches++;
+        } else {
+            userMatches = 0;
+        }
+
+        if (userMatches > computerMatches) {
+            System.out.println("You win");
+        } else if (computerMatches > userMatches) {
+            System.out.println("You lose ");
+        } else {
+            System.out.println("Everyone wins!!");
+        }
+
+
 
          scan.close();
     }
@@ -223,5 +261,7 @@ public class Pokerito {
             default: 
             return "This shouldn't get called.";
                 }
+}
+
 }
 
