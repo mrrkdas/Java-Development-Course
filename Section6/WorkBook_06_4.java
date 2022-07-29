@@ -22,7 +22,9 @@ public class WorkBook_06_4 {
                 }
           */
 
-          if ()
+            if (store[i].equals(find)) {
+                System.out.println("We have that in aisle " + i);
+            }
         }
     }
 }
