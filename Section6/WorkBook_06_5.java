@@ -29,6 +29,13 @@ public class WorkBook_06_5 {
           *   2. println("\n\nThe highest score is: <>. Give that man a cookie!");
 
           */
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] > highScore) {
+                highScore = array[i];
+            }
+        }
+
+        System.out.println("\n\nThe highest score is: " + highScore + ". Give that man a cookie!");
 
 
     }
