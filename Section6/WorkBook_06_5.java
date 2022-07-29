@@ -9,7 +9,19 @@ public class WorkBook_06_5 {
          *    2. Using a for loop, print the array elements on the same line.
          *         Example – Here are the scores: 14775 48328 7928 27102 21787 21063 38096 42711 32863 23707
          */
+
+         int[] array = {randomNumber(), randomNumber(), randomNumber(), randomNumber(), 
+                        randomNumber(), randomNumber(), randomNumber(), randomNumber(), 
+                        randomNumber(), randomNumber()};
+
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
+
+
         int highScore = 0;
+
+
 
          /** Task 3
           *  
