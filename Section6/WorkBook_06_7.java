@@ -13,6 +13,15 @@ public class WorkBook_06_7 {
          * 
          * 
          */
+        int wins = 0;
+        int losses = 0;
+        for (int i = 0; i < record.length; i++) {
+            if (record[i].equals("WIN")) {
+                wins++;
+            } else {
+                losses++;
+            }
+        }
 
         /** Task 2
          * Print:
@@ -20,7 +29,9 @@ public class WorkBook_06_7 {
          *     • He is the pride of oracle: Java Fury!
          *
          * 
-         */        
+         */
+        
+         System.out.println("Java has " + wins + " wins and " + losses + " losses");
 
     }
 }
