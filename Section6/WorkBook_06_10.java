@@ -1,5 +1,6 @@
 package Section6;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class WorkBook_06_10 {
@@ -24,13 +25,16 @@ public class WorkBook_06_10 {
 
          System.out.println("Great, enter each topping!");
 
-         
-
-        /** Task 4 – Pick up the user's toppings and store them in the array.
+         for (int i = 0; i < toppings.length; i++) {
+            /** Task 4 – Pick up the user's toppings and store them in the array.
          *  
          *  See the workbook article for more detail  
          * 
          */
+            toppings[i] = scan.nextLine();
+         }
+
+
 
         /** Task 5 –  Loop through the length of the array and print each topping
          *  
@@ -38,11 +42,20 @@ public class WorkBook_06_10 {
          * 
          */
 
+        System.out.println(Arrays.toString(toppings));
+
         /** Task 6 –  Confirm the order
          *  
          *  See the workbook article for more detail  
          * 
          */
+
+        System.out.println("Press anything to confirm your order");
+        scan.nextLine();
+
+        System.out.println("Your order is on the way!");
+
+        
 
         scan.close();
 
