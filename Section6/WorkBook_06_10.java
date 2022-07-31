@@ -15,7 +15,7 @@ public class WorkBook_06_10 {
          int toppingsNum = scan.nextInt();
 
         // Task 2 – Create the array here
-        String[] toppings = new String[toppingsNum];
+        String[] toppings = new String[toppingsNum + 1];
 
         /** Task 3
          *  print Great, enter each topping!
