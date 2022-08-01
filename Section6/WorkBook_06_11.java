@@ -10,6 +10,9 @@ public class WorkBook_06_11 {
         double[] fahrenheit = celciusToFahrenheit(celsius);
 
         //Task 4, Call printTemperatures for celsius and fahrenheit.
+
+        printTemperatures(celsius, "celcius");
+        printTemperatures(fahrenheit, "fahrenhiet");
     }
 
 
@@ -50,7 +53,7 @@ public class WorkBook_06_11 {
 
     public static void printTemperatures(double[] temp, String type) {
         for (int i = 0; i < temp.length; i++) {
-            System.out.print("Celsius: " + temp[i]);
+            System.out.print(type + ": " + temp[i]);
         }
     }
 
