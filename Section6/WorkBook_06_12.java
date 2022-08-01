@@ -25,5 +25,11 @@ public class WorkBook_06_12 {
      *        i.e  1 4 6 3 2 6 
      *   2.   print a new line   
      */
+
+     public static void printTicketNumbers(int[] ticket) {
+        for (int i = 0; i < ticket.length; i++) {
+            System.out.print(ticket[i] + "\n");
+        }
+     }
     
 }
