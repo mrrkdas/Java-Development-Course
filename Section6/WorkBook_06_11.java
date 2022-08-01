@@ -48,5 +48,11 @@ public class WorkBook_06_11 {
      *   3. (Task 5) Rounds every temperature value to two decimal places. 
      */
 
+    public static void printTemperatures(double[] temp, String type) {
+        for (int i = 0; i < temp.length; i++) {
+            System.out.print("Celsius: " + temp[i]);
+        }
+    }
+
 
 }
