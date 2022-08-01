@@ -6,8 +6,8 @@ public class WorkBook_06_11 {
     public static void main(String[] args) {
         
         double[] celsius = {12.5, 14.5, 17.0, 21.0, 23.0, 18.5, 20.0};
-        double[] fahrenheit;
         //Task 2, call celsiusToFahrenheit and store the result in the fahrenheit array. 
+        double[] fahrenheit = celciusToFahrenheit(celsius);
 
         //Task 4, Call printTemperatures for celsius and fahrenheit.
     }
