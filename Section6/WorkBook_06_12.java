@@ -6,6 +6,8 @@ public class WorkBook_06_12 {
     public static void main(String[] args) {
         int[] ticket = {34, 43, 45, 65, 21, 54};
         //Task 1 - Copy the elements of ticket into ticket2, but change the third value to 54. 
+        int[] ticket2 = Arrays.copyOf(ticket, ticket.length);
+        ticket2[3] = 54;
 
         System.out.print("Ticket 1 numbers: ");
         //Task 3 - Call printTicketNumbers for int[] ticket.   
