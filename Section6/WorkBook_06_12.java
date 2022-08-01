@@ -10,10 +10,11 @@ public class WorkBook_06_12 {
         ticket2[3] = 54;
 
         System.out.print("Ticket 1 numbers: ");
-        //Task 3 - Call printTicketNumbers for int[] ticket.   
+        printTicketNumbers(ticket); 
 
         System.out.print("Ticket 2 numbers: ");
         //Task 3 - Call printTicketNumbers for int[] ticket2.   
+        printTicketNumbers(ticket2);
     }
     
     /** Task 2
