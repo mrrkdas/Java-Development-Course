@@ -53,7 +53,12 @@ public class WorkBook_06_11 {
 
     public static void printTemperatures(double[] temp, String type) {
         for (int i = 0; i < temp.length; i++) {
+
+            for (int j = 0; j < temp.length; j++) {
+                temp[i] = Math.round(temp[i]);
+            }
             System.out.print(type + ": " + temp[i]);
+
         }
     }
 
