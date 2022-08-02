@@ -9,8 +9,10 @@ public class Javapedia {
         System.out.println("How many historical figures will you register?");
         //Task 1 – Ask the user: how many historical figures will you register?
         //       – Store the value.
+        int userNum = scan.nextInt();
         
         //Task 2 – Create a 2D array with a variable number of rows, and 3 values per row.         
+        String[][] array = new String[userNum][3];
          
         //Watch out for the nextLine() pitfall. 
         /* Task 3 
