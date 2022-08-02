@@ -2,7 +2,8 @@ package Section6;
 
 public class WorkBook_06_14 {
     public static void main(String[] args) {
-        // Task 3 – Create a 2D array with 100 rows and 10 columns.
+        // Task 3 – Create a 2D array with 10 rows and 10 columns.
+        int[][] array = new int[10][10];
 
 
         /** Task 4
