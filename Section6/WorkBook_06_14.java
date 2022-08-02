@@ -25,6 +25,11 @@ public class WorkBook_06_14 {
      *    1. return a random number between 1 and 100. 
      */
 
+     public static int randomNumber() {
+        int randomNumber = (int) (Math.random() * 100) +1 ;
+        return randomNumber;
+     }
+
 
     /** Task 2
      * Function name: print2DArray
