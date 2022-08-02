@@ -19,6 +19,8 @@ public class WorkBook_06_14 {
             }
          }
 
+         print2DArray(array);
+
 
         
     }
